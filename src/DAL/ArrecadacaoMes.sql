@@ -1,0 +1,4 @@
+SELECT SUM(Total) AS ArrecadacaoMes 
+FROM pedido
+WHERE DataCriacao 
+BETWEEN DATE_SUB(CURDATE(), INTERVAL 30 DAY) AND CURDATE();

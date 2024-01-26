@@ -1,0 +1,1 @@
+SELECT ClienteID, Nome, CPF, Telefone FROM cliente;

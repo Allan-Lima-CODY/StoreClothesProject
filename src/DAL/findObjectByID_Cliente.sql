@@ -1,0 +1,1 @@
+SELECT C.ClienteID, C.Nome, C.CPF, C.Telefone FROM cliente C WHERE C.ClienteID = x;

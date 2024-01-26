@@ -1,0 +1,1 @@
+DELETE FROM endereco WHERE EnderecoID = x;

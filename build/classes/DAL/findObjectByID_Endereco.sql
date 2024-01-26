@@ -1,0 +1,1 @@
+SELECT E.EnderecoID, E.ClienteID, E.CEP, E.Estado, E.Cidade, E.Bairro, E.Logradouro, E.Numero, E.Complemento FROM endereco E WHERE E.EnderecoID = x;
